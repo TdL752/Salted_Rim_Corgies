@@ -1,0 +1,26 @@
+{
+  "name": "corgies",
+  "version": "1.0.0",
+  "description": "dog breeding site",
+  "keywords": [
+    "corgis",
+    "dogs",
+    "breeding",
+    "pets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "salted_rim_corgies"
+  },
+  "license": "ISC",
+  "author": "lint",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
