@@ -162,6 +162,18 @@ nav {
 	background: linear-gradient(to left, transparent, rgb(255, 192, 111));
 }
 
+.facebook-iframe {
+	width: 100%;
+	max-width: 500px;
+    margin: 20rem auto;
+    overflow: hidden;
+}
+
+.facebook-iframe iframe {
+    width: 100% !important;
+    height: 700px;
+}
+
 
 @media screen and (max-width: 600px) {
 	.head-text {
