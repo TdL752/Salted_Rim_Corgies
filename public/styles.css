@@ -41,6 +41,7 @@ nav {
 	height: 40px;
 	border-bottom: 1px solid rgb(255, 192, 111);
 	border-top: 2px solid black;
+	z-index: 100;
 }
 
 #nav-div {
@@ -117,8 +118,8 @@ nav {
 	align-items: center;
 	margin: auto;
 	position: relative;
-	width: 100%;
-    height: 400px;
+    height: 600px;
+
 }
 
 .carousel-image {
@@ -188,5 +189,9 @@ nav {
 	.text-content {
 		font-size: 20px;
 		margin: 10rem 15%;
+	}
+
+	.image-carousel {
+		height: 200px
 	}
 }
