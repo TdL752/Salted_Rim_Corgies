@@ -174,8 +174,21 @@ nav {
     height: 700px;
 }
 
+.contact-head {
+	color: rgb(255, 192, 111);
+	font-family: 'Comfortaa', sans-serif;
 
-@media screen and (max-width: 600px) {
+}
+
+.contained-link {
+	color: white;
+}
+
+.contained-link:hover {
+	color: rgb(255, 192, 111);
+}
+
+@media screen and (max-width: 700px) {
 	.head-text {
 		font-size: 18px;
 	}
@@ -205,5 +218,9 @@ nav {
 
 	.image-carousel {
 		height: 200px
+	}
+
+	.contact-head, .contained-text {
+		font-size: 20px;
 	}
 }
