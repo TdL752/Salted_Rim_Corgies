@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width initial-scale=1.0'>
+		<link rel='stylesheet' href='styles.css'>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+<!-- nav -->
+		<nav id="nav-bar">
+			<div id="nav-header-container">
+				<h1 id="nav-header">
+					Salted Rim <span id="nav-header-span">Corgis</span>
+				</h1>
+			</div>
+			<div id="nav-link-container">
+				<a class="nav-link" href="#about">
+					About Us
+				</a>
+				<a class="nav-link" href="#breed">
+					The Breed
+				</a>
+				<a class="nav-link" href="#care">
+					Care Guide
+				</a>
+				<a class="nav-link" href="#faq">
+					FAQ
+				</a>
+			</div>
+		</nav>
+<!-- Splash section -->
+		<section id="splash">
+			<div id="splash-background"></div>
+		</section>
+
+		<hr class="border" />
+
+<!-- about salted rim -->
+		<section id="about">
+			<div class="outer-container-border">
+				<div class="inner-container">
+					<div class="image-container-border">
+						<img class="image" id="about-image" alt="corgi puppy" src="https://res.cloudinary.com/dbuwekmex/image/upload/v1759615848/Messenger_creation_814859E2-6655-402A-88C2-8EDAC6012175_bzklri.jpg">
+					</div>
+					<div class="text-content-container">
+						<h1 class="header">
+							Welcome to Salted Rim
+						</h1>
+						<p class="text-content">
+							Nestled in the rolling countryside, Salted Rim Corgis is a small, family-run breeding program with over a decade of dedication to the Pembroke Welsh Corgi. 
+							We raise every litter inside our home — socialized with children, cats, and the full warmth of daily family life. 
+							We believe the best start in life comes from love, not a kennel. Our corgis are health-tested, temperament-evaluated, and genuinely spoiled before they ever meet you. 
+						</p>
+						<div id="about-tag-container">
+							<p class="about-tag-text">
+								🏅 AKC Registered
+							</p>
+							<p class="about-tag-text">
+								🩺 Health Tested
+							</p>
+							<p class="about-tag-text">
+								🏠 Home Raised
+							</p>
+							<p class="about-tag-text">
+								💉 Vet Checked
+							</p>
+							<p class="about-tag-text">
+								📋 Lifetime Support
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!-- about the breed -->
+		<section id="breed">
+			<div class="breed-heading-container">
+				<h1 class="header">
+					Why Everyone Falls for the Pembroke
+				</h1>
+				<p class="text-content">
+					The Pembroke Welsh Corgi is one of the world's most beloved herding breeds — bold, bright, and bursting with personality in a surprisingly compact package.
+				</p>
+			</div>
+			<div class="cards-container">
+				<div class="card-border">
+					<div class="inner-card">
+						<h1 class="header">
+							Size & Build
+						</h1>
+						<p class="text-content">
+							Corgis typically weigh 22–31 lbs and stand 10–12 inches tall. 
+							Their long body and short legs are their trademark — built low to the ground for agile herding.
+						</p>
+					</div>
+				</div>
+				<div class="card-border">
+					<div class="inner-card">
+						<h1 class="header">
+							Intelligence
+						</h1>
+						<p class="text-content">
+							Ranked among the top 15 most intelligent dog breeds, Corgis are quick learners who thrive on mental stimulation. 
+							They love a challenge — and will outsmart you if you're not careful!
+						</p>
+					</div>
+				</div>
+				<div class="card-border">
+					<div class="inner-card">
+						<h1 class="header">
+							Temperament
+						</h1>
+						<p class="text-content">
+							Loyal, playful, and surprisingly bold for their size. 
+							Corgis are affectionate with family, friendly with strangers, and gentle with children when properly socialized.
+						</p>
+					</div>
+				</div>
+				<div class="card-border">
+					<div class="inner-card">
+						<h1 class="header">
+							Energy Level
+						</h1>
+						<p class="text-content">
+							Moderately active — they love a good run or hike but are equally happy snuggling on the couch. 
+							Two 30-minute walks a day keeps a Corgi happy and healthy.
+						</p>
+					</div>
+				</div>
+				<div class="card-border">
+					<div class="inner-card">
+						<h1 class="header">
+							Coat & Colors
+						</h1>
+						<p class="text-content">
+							The classic double coat comes in red, sable, fawn, black & tan, and tri-color, always with white markings. 
+							They shed seasonally — a good brush twice a week works wonders.
+						</p>
+					</div>
+				</div>
+				<div class="card-border">
+					<div class="inner-card">
+						<h1 class="header">
+							Lifespan
+						</h1>
+						<p class="text-content">
+							With proper care, Pembroke Welsh Corgis typically live 12–15 years, making them a long, wonderful commitment full of adventures and belly rubs.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!-- caring for the breed -->
+		<section id="care">
+			<div class="care-inner">
+				<h1 class="header">
+					Caring for Your Corgi
+				</h1>
+				<p class="text-content">
+					Everything you need to give your new best friend a happy, healthy life — from puppyhood through their golden years.
+				</p>
+
+				<div class="care-tabs">
+					<button class="care-tab active" onclick="switchTab('nutrition')">🍗 Nutrition</button>
+					<button class="care-tab" onclick="switchTab('exercise')">🏃 Exercise</button>
+					<button class="care-tab" onclick="switchTab('grooming')">✂️ Grooming</button>
+					<button class="care-tab" onclick="switchTab('health')">🩺 Health</button>
+					<button class="care-tab" onclick="switchTab('training')">🎓 Training</button>
+				</div>
+
+				<div id="nutrition" class="care-panel active">
+					<div class="care-item">
+						<h4>
+							🍗 Quality Kibble First
+						</h4>
+						<p class="text-content">
+							Choose a high-protein, breed-appropriate kibble as the foundation. 
+							Look for real meat (chicken, beef, or salmon) as the first ingredient.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							📐 Portion Control
+						</h4>
+						<p class="text-content">
+							Adult Corgis do best with ¾–1 cup of dry food twice daily. 
+							Avoid free-feeding — this breed loves food and obesity stresses their long spine.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🥦 Healthy Treats
+						</h4>
+						<p class="text-content">
+							Carrots, blueberries, and plain cooked chicken make excellent low-calorie treats for training. 
+							Avoid grapes, raisins, onions, and xylitol.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							💧 Fresh Water Always
+						</h4>
+						<p class="text-content">
+							Keep clean water available at all times, especially after exercise. 
+							Stainless steel bowls are easiest to keep bacteria-free.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🐶 Puppy-Specific Needs
+						</h4>
+						<p class="text-content">
+							Puppies need 3–4 small meals a day until 6 months, then transition to twice daily. 
+							Use puppy-formulated food for the first year.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🚫 Foods to Avoid
+						</h4>
+						<p class="text-content">
+							Never feed chocolate, macadamia nuts, avocado, cooked bones, alcohol, or anything with xylitol — all are toxic to dogs.
+						</p>
+					</div>
+				</div>
+
+				<div id="exercise" class="care-panel">
+					<div class="care-item">
+						<h4>
+							🦶 Daily Walks
+						</h4>
+						<p class="text-content">
+							Two 30-minute walks per day is the sweet spot for adult Corgis — enough to burn energy without overworking their joints.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🎾 Playtime Counts
+						</h4>
+						<p class="text-content">
+							Fetch, tug-of-war, and interactive toys all contribute to their daily exercise. 
+							Mental stimulation counts as much as physical activity.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🧗 Stairs &amp; Jumping
+						</h4>
+						<p class="text-content">
+							Limit repetitive jumping and use ramps for furniture access. 
+							Their long spine is vulnerable to disc disease if stressed repeatedly.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🐕 Herding Instinct
+						</h4>
+						<p class="text-content">
+							Corgis love having a job. 
+							Try agility, rally obedience, or even herding trials — activities that tap their natural drive keep them fulfilled.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🌡️ Weather Awareness
+						</h4>
+						<p class="text-content">
+							Avoid pavement walks on hot days — their belly is close to the ground. 
+							In winter, dry their paws after walks and watch for salt irritation.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🐾 Puppy Exercise Limits
+						</h4>
+						<p class="text-content">
+							For puppies under 1 year: 5 minutes of exercise per month of age, twice a day. 
+							Over-exercising puppies can damage developing joints.
+						</p>
+					</div>
+				</div>
+
+				<div id="grooming" class="care-panel">
+					<div class="care-item">
+						<h4>
+							🖌️ Regular Brushing
+						</h4>
+						<p class="text-content">
+							Brush 2–3 times per week with a slicker brush and undercoat rake. 
+							During spring and fall shedding season, daily brushing prevents tumbleweeds.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🛁 Bath Time
+						</h4>
+						<p class="text-content">
+							Bathe every 6–8 weeks using a gentle dog shampoo. 
+							Bathing too frequently strips natural oils — unless they've found something delightful to roll in.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							✂️ Nail Trims
+						</h4>
+						<p class="text-content">
+							Trim nails every 3–4 weeks. 
+							Long nails cause discomfort and affect their gait. 
+							Start handling paws early so they tolerate it happily.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							👂 Ear Cleaning
+						</h4>
+						<p class="text-content">
+							Check ears weekly for redness or odor. 
+							Use a vet-approved ear cleaner to gently wipe — never insert anything into the ear canal.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🦷 Dental Care
+						</h4>
+						<p class="text-content">
+							Brush teeth 2–3 times per week with dog-safe toothpaste. 
+							Dental chews and water additives help too — dental disease is very common in dogs.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							✂️ Professional Grooming
+						</h4>
+						<p class="text-content">
+							A professional groom every 8–12 weeks keeps everything tidy. 
+							Note: never shave a Corgi's double coat — it protects them from both heat and cold.
+						</p>
+					</div>
+				</div>
+
+				<div id="health" class="care-panel">
+					<div class="care-item">
+						<h4>
+							🩺 Vet Check-ups
+						</h4>
+						<p class="text-content">
+							Annual wellness exams are essential. 
+							Puppies need several vet visits in their first year for vaccines, deworming, and early health screenings.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							💉 Core Vaccines
+						</h4>
+						<p class="text-content">
+							Distemper, parvovirus, adenovirus, and rabies are non-negotiable. 
+							Your vet may also recommend bordetella and leptospirosis based on lifestyle.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🦴 Spine Health
+						</h4>
+						<p class="text-content">
+							Intervertebral Disc Disease (IVDD) is a known risk in Corgis. 
+							Maintain healthy weight, use ramps, and limit jumping to protect their back.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							👁️ Eye &amp; Hip Screening
+						</h4>
+						<p class="text-content">
+							Reputable breeders test for Progressive Retinal Atrophy (PRA) and hip dysplasia. 
+							Ask for health clearances from both parents before purchasing.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🐛 Parasite Prevention
+						</h4>
+						<p class="text-content">
+							Year-round flea, tick, and heartworm prevention is strongly recommended. 
+							Talk to your vet about the best options for your region and lifestyle.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							✂️ Spay &amp; Neuter
+						</h4>
+						<p class="text-content">
+							Most vets recommend waiting until 12–18 months before spaying or neutering Corgis to allow proper hormonal development and growth.
+						</p>
+					</div>
+				</div>
+
+				<div id="training" class="care-panel">
+					<div class="care-item">
+						<h4>
+							🎓 Start Early
+						</h4>
+						<p class="text-content">
+							Begin basic commands (sit, stay, come, leave it) at 8 weeks. Corgis are eager learners — early training shapes a well-mannered adult dog.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							✨ Positive Reinforcement
+						</h4>
+						<p class="text-content">
+							Reward-based training works best. 
+							Use small, high-value treats and enthusiastic praise. 
+							Corgis respond poorly to harsh corrections — they'll dig their heels in!
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🏠 Crate Training
+						</h4>
+						<p class="text-content">
+							A crate is a safe den, not a punishment. 
+							Introduce it gradually with treats and meals inside. 
+							Most Corgis learn to love their crate as a cozy retreat.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							👥 Socialization
+						</h4>
+						<p class="text-content">
+							Expose puppies to new people, dogs, sounds, and environments between 8–16 weeks. 
+							Well-socialized Corgis are confident and friendly throughout life.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							🐾 Leash Manners
+						</h4>
+						<p class="text-content">
+							Teach loose-leash walking early. 
+							Corgis can pull! A front-clip harness helps redirect their attention without putting pressure on their throat.
+						</p>
+					</div>
+					<div class="care-item">
+						<h4>
+							📚 Keep It Fun
+						</h4>
+						<p class="text-content">
+							Short sessions (5–10 minutes) work best. 
+							End on a success and always leave them wanting more. 
+							Bored Corgis will find their own entertainment — usually at your expense.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!-- frequently asked questions -->
+		<section id="faq">
+			<div class="faq-heading-container">
+        		<h2 class="header">
+					Frequently Asked Questions
+				</h2>
+        		<p class="text-content">
+					Everything prospective families ask us most.
+				</p>
+      		</div>
+      		<div class="faq-inner">
+        		<div class="faq-item">
+          			<button class="faq-q" onclick="toggleFaq(this)">
+            			How do I get on the waiting list? <span class="arrow">▾</span>
+          			</button>
+          			<div class="faq-a text-content">
+            			<p>
+            	  			Fill out our inquiry form below and we'll reach out to chat! We like to get to know families a little before placing puppies.
+              				Our waitlist typically runs 3–6 months depending on available litters.
+            			</p>
+          			</div>
+        		</div>
+        		<div class="faq-item">
+          			<button class="faq-q" onclick="toggleFaq(this)">
+            			What health testing do you perform? <span class="arrow">▾</span>
+          			</button>
+          			<div class="faq-a text-content">
+            			<p>
+              				All of our breeding dogs are tested for Progressive Retinal Atrophy (PRA), von Willebrand's Disease (vWD), Degenerative myelopathy (DM), hip and elbow dysplasia, and cardiac health.
+              				We share all clearances openly with prospective families.
+            			</p>
+          			</div>
+        		</div>
+        		<div class="faq-item">
+          			<button class="faq-q" onclick="toggleFaq(this)">
+            			Are Corgis good with children and other pets? <span class="arrow">▾</span>
+          			</button>
+          			<div class="faq-a text-content">
+            			<p>
+              				Absolutely — when raised together! Our puppies are socialized with children and cats from birth.
+              				Corgis have a natural herding instinct and may occasionally nip at running heels, but this is easily redirected with consistent training from an early age.
+            			</p>
+          			</div>
+        		</div>
+        		<div class="faq-item">
+          			<button class="faq-q" onclick="toggleFaq(this)">
+            			How much do your puppies cost? <span class="arrow">▾</span>
+          			</button>
+          			<div class="faq-a text-content">
+            			<p>
+              				Our puppies are placed as pet companions (with spay/neuter agreement) and as show/breeding prospects at different price points.
+              				Contact us for current pricing — we're happy to walk you through what's included (health guarantees, microchip, first vet visit, puppy starter kit, and lifetime breeder support).
+            			</p>
+          			</div>
+        		</div>
+        		<div class="faq-item">
+          			<button class="faq-q" onclick="toggleFaq(this)">
+            			Do Corgis shed a lot? <span class="arrow">▾</span>
+          			</button>
+          			<div class="faq-a text-content">
+            			<p>
+              				Honestly? Yes, a fair amount! Corgis have a dense double coat and shed moderately year-round with heavier "blow outs" in spring and fall.
+              				Regular brushing (2–3x/week) and a good vacuum are your best friends. Many Corgi owners say it's entirely worth it.
+            			</p>
+          			</div>
+        		</div>
+        		<div class="faq-item">
+          			<button class="faq-q" onclick="toggleFaq(this)">
+            			Will you stay in touch after I take my puppy home? <span class="arrow">▾</span>
+          			</button>
+          			<div class="faq-a text-content">
+            			<p>
+              				Always! We consider every puppy family part of the Salted Rim extended family.
+              				We're available for questions big and small throughout your dog's life — and we love getting puppy update photos.
+              				We also have an owners' community you're welcome to join.
+            			</p>
+          			</div>
+        		</div>
+      		</div>
+		</section>
+
+<!-- footer -->
+		
+		<footer>
+			<div id="footer-container">
+				<p>
+         			<strong>Salted Rim Corgis</strong> — Pembroke Welsh Corgis raised with love&nbsp;·&nbsp;AKC Registered&nbsp;·&nbsp;Health Tested
+      			</p>
+      			<p>
+					© 2025 Salted Rim Corgis. All rights reserved.
+				</p>
+			</div>
+		</footer>
+
+		<script>
+			function switchTab(name) {
+				document.querySelectorAll('.care-tab').forEach(t => t.classList.remove('active'));
+				document.querySelectorAll('.care-panel').forEach(p => p.classList.remove('active'));
+				document.getElementById(name).classList.add('active');
+				event.target.classList.add('active');
+			}
+
+			function toggleFaq(btn) {
+				const item = btn.closest('.faq-item');
+				const isOpen = item.classList.contains('open');
+				document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+				if (!isOpen) item.classList.add('open');
+			}
+		</script>
+	</body>
+</html>
