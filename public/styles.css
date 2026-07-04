@@ -162,9 +162,10 @@ footer {
 }
 
 #footer-container {
-	width: 65%;
-	margin: 2rem auto;
+	text-align: center;
+	margin: auto;
 	color: var(--gold);
+
 }
 
 
@@ -416,10 +417,6 @@ footer {
 	}
 
 	.faq-inner {
-		width: 90%;
-	}
-
-	#footer-container {
 		width: 90%;
 	}
 }
