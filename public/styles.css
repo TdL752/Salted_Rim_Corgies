@@ -106,6 +106,11 @@ hr {
 	padding: 5rem 0;
 }
 
+#gallery {
+	background-color: var(--cream);
+	padding: 5rem 0;
+}
+
 footer {
 	background-color: var(--brown);
 	padding: 2rem 0;
@@ -161,13 +166,20 @@ footer {
 	text-align: center;
 }
 
+#gallery-container {
+	width: 65%;
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 5rem;
+	column-gap: 10%;
+	margin: auto;
+}
+
 #footer-container {
 	text-align: center;
 	margin: auto;
-	color: var(--gold);
-
+	color: var(--cream);
 }
-
 
 /* inner containers and text-containers */
 
@@ -342,8 +354,28 @@ footer {
   font-size: .95rem;
 }
 
+/* gallery */
 
-/* tablets and landscape views */
+#gallery-header {
+	text-align: center;
+	margin: 5rem auto;
+}
+
+.gallery-image {
+	width: 45%;
+	border-radius: 40px;
+}
+
+.external-link {
+	text-decoration: none;
+	color: var(--gold);
+	transition: color .2s;
+}
+
+.external-link:hover {
+	color: var(--gold-lt);
+	cursor: pointer;
+}
 
 @media screen and (max-width: 770px) {
 	#splash-background {
@@ -417,6 +449,21 @@ footer {
 	}
 
 	.faq-inner {
+		width: 90%;
+	}
+
+	#gallery-container {
+		flex-direction: column;
+		gap: 2rem;
+		width: 90%;
+	}
+
+	.gallery-image {
+		width: 100%;
+
+	}
+
+	#footer-container {
 		width: 90%;
 	}
 }
