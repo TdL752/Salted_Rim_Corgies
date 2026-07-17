@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
 	res.sendFile(path.join(__dirname, 'public', 'home.html'));
 });
 
+app.get('/gallery', (req, res) => {
+	res.sendFile(path.join(__dirname, 'public', 'gallery.html'));
+});
+
 app.listen(port, () => {
 	console.log(`listening on port ${port}`);
 });
